@@ -25,6 +25,10 @@ const isMorning = hours >= 4 && hours < 12 // is it morning?
 const isAfternoon = hours >= 12 && hours < 17 // is it afternoon?
 const isEvening = hours >= 17 || hours < 4 // is it evening?
 const welcome = document.querySelector("div p")
+
+welcome.style.fontFamily = "Lucida Handwriting"
+welcome.style.textAlign = "center"
+welcome.style.fontSize = "25px"
 if (isMorning) {
     welcome = "Top of the mornin to ya!"
 }
