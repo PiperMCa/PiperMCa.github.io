@@ -41,3 +41,6 @@ else if (isEvening) {
 else {
     welcome.textContent = "error"
 }
+
+
+localStorage.setItem("It's a secret to everybody.", "ʕノ•ᴥ•ʔノ ︵ ┻━┻")
